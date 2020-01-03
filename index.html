@@ -1,12 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Entrar</title>
+    <link rel="shortcut icon" href="./src/logo/ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/vanilla.css">
+    <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
-    <h1>Construção</h1>
+    <div class="login">
+        <form action="javascript:void(0)" class="box formulario">
+            <img src="./src/logo/logo.svg" class="logo" alt="">
+            <div>
+                <label for="">CPF *</label>
+                <input type="text" name="user" autofocus required>
+            </div>
+            <div>
+                <label for="">Senha *</label>
+                <input type="password" name="senha" required>
+            </div>
+            <div>
+                <input type="submit" class="btn" value="ACESSAR">
+            </div>
+        </form>
+    </div>
 </body>
 </html>
