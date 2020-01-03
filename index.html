@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Entrar</title>
     <link rel="shortcut icon" href="./src/logo/ico.png" type="image/x-icon">
-    <link rel="stylesheet" href="./src/css/vanilla.css">
     <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
@@ -15,7 +14,7 @@
             <img src="./src/logo/logo.svg" class="logo" alt="">
             <div>
                 <label for="">CPF *</label>
-                <input type="text" name="user" autofocus required>
+                <input type="text" name="user" mask="cpf" autofocus required>
             </div>
             <div>
                 <label for="">Senha *</label>
@@ -26,5 +25,6 @@
             </div>
         </form>
     </div>
+    <script src="./src/js/module.js" type="module"></script>
 </body>
 </html>
